@@ -25,8 +25,11 @@ lista_anual = [
 
 ]
 
+
+lista = []
 def total_vendas(lista):
     for c in lista:
+        
 
 
 
@@ -37,11 +40,10 @@ def media_semestre(lista):
         print(f' a media do trimetre {contador}: foi: {media}')
         contador +=1
         
-        
-        
 
 media_semestre(lista_anual)
 total_vendas(lista_anual)
+
 
 
     

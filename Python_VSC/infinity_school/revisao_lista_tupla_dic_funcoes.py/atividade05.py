@@ -31,9 +31,7 @@ def achando_maior_venda():
      print(f'produto mais vendido foi: {vencedor['nome']} com {vencedor['numero de vendas']} vendas ')
 
     
-
-    
-    
+  
 achando_maior_venda()
 
 
