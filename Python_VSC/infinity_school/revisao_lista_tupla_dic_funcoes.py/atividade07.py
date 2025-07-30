@@ -72,7 +72,7 @@ def trimestre_menos_vendeu(lista): # mesma logica da função trimestre_mais_ven
     trimestre_menos = 1
 
     for indice, menos in enumerate(lista, start=1):
-        if menos <= menor:
+        if menos < menor:
             menor = menos
             trimestre_menos = indice
     print(f'O {trimestre_menos}º trimestre teve o menor lucro: {menor:.2f}-R$')
